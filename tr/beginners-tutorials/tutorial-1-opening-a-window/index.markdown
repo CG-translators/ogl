@@ -1,8 +1,8 @@
 ---
-layout: egitsel
+layout: tutorial
 status: publish
 published: true
-title: 'Egitsel 1 : Yeni Bir Pencere'
+title: 'Tutorial 1 : Opening a window'
 date: '2011-04-07 17:54:16 +0200'
 date_gmt: '2011-04-07 17:54:16 +0200'
 categories: [tuto]
@@ -13,7 +13,7 @@ tags: []
 * TOC
 {:toc}
 
-# Giriş
+# Introduction
 
 Welcome to the first tutorial !
 
