@@ -42,17 +42,15 @@ Tüm eğitseller Windows, Linux ve Mac işletim sistemleri üzerinde inşa edile
 * Derleyicinizi kullanarak bu projeyi inşa edin
 * Örneklerle oynayın !
 
-Detailed procedures will now be given for each platform. Adaptations may be required. If unsure, read the instruction for Windows and try to adapt them.
+Her bir platform için detaylı prosedür verilecektir. Uyarlamalar gerekebilir. Emin değilseniz, Windows talimatlarını okuyun ve uyarlamayı deneyin.
 
-## Building on Windows
+## Windows üzerinde inşa 
 
- 
-
-* Updating your drivers should be easy. Just go to NVIDIA's or AMD's website and download the drivers. If unsure about your GPU model : Control Panel -> System and Security -> System -> Device Manager -> Display adapter. If you have an integrated Intel GPU, drivers are usually provided by your OEM (Dell, HP, ...).
-* We suggest using Visual Studio 2017 Express for Desktop as a compiler. You can download it for free [here](https://www.visualstudio.com/en-US/products/visual-studio-express-vs). MAKE SURE YOU CHOOSE CUSTOM INSTALLATION AND CHECK C++. If you prefer using MinGW, we recommend using [Qt Creator](http://qt-project.org/). Install whichever you want. Subsequent steps will be explained with Visual Studio, but should be similar with any other IDE.
-* Download [CMake ](http://www.cmake.org/cmake/resources/software.html)from here and install it
-* [Download the source code](http://www.opengl-tutorial.org/download/) and unzip it, for instance in C:\Users\XYZ\Projects\OpenGLTutorials\ .
-* Launch CMake. In the first line, navigate to the unzipped folder. If unsure, choose the folder that contains the CMakeLists.txt file. In the second line, enter where you want all the compiler's stuff to live. For instance, you can choose C:\Users\XYZ\Projects\OpenGLTutorials-build-Visual2017-64bits\, or C:\Users\XYZ\Projects\OpenGLTutorials\build\Visual2017-32bits\. Notice that it can be anywhere, not necessarily in the same folder.
+* Sürücülerinizin güncellenmesi kolay olmalıdır. Sadece NVIDIA ya da AMD web sitesine gidin ve sürücüleri indirin.Eğer GPU (ing. Graphics Processing Unit, Grafik İşlem Birmi) modeli hakkında emin değilseniz : Denetim Masası ->Sistem ve Güvenlik -> Sistem -> Aygıt Yöneticisi -> Görüntü Bağdaştırıcısı. Tümleşik bir Intel GPU'nunuz varsa, Sürücüler genellikle OEM (Dell, HP,...) tarafından sağlanır.
+* Masaüstü bir derleyici kullanan Visual Studio 2017 Express'i önermekteyiz. [Buradan](https://www.visualstudio.com/en-US/products/visual-studio-express-vs) indirebilirsiniz. ÖZEL YÜKLEMEYİ SEÇİN VE C++'IN İŞARETLİ OLDUĞUNDAN EMİN OLUN. Eğer MinGW derleyicisini seçerseniz, [Qt Creator](http://qt-project.org/) kullanmanızı önermekteyiz. İsetiğiniz herhangi birini yükleyin. Sonraki talimatlar Visula Studio ile açıklanmaktadır ancak diğer IDE'ler ile benzerdir.
+* [CMake ](http://www.cmake.org/cmake/resources/software.html)'i indirin ve yükleyin.
+* [Kaynak kodu indirin](http://www.opengl-tutorial.org/download/) ve sıkıştırılmı olan dosyaları çıkartın, örneğin C:\Users\XYZ\Projects\OpenGLTutorials\ içerisine.
+* CMake'i başlatın. In the first line, navigate to the unzipped folder. If unsure, choose the folder that contains the CMakeLists.txt file. In the second line, enter where you want all the compiler's stuff to live. For instance, you can choose C:\Users\XYZ\Projects\OpenGLTutorials-build-Visual2017-64bits\, or C:\Users\XYZ\Projects\OpenGLTutorials\build\Visual2017-32bits\. Notice that it can be anywhere, not necessarily in the same folder.
 ![]({{site.baseurl}}/assets/images/tuto-1-window/CMake.png)
 
 * Click on the Configure button. Since this is the first time you configure the project, CMake will ask you which compiler you would like to use. Choose wisely depending on step 1. If you have a 64 bit Windows, you can choose 64 bits; if you don't know, choose 32 bits.
