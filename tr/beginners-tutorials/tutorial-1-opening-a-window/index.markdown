@@ -2,7 +2,7 @@
 layout: tutorial
 status: publish
 published: true
-title: 'Tutorial 1 : Opening a window'
+title: 'Eğitsel 1 : Yeni Bir Pencere '
 date: '2011-04-07 17:54:16 +0200'
 date_gmt: '2011-04-07 17:54:16 +0200'
 categories: [tuto]
@@ -13,34 +13,34 @@ tags: []
 * TOC
 {:toc}
 
-# Introduction
+# Giriş
 
-Welcome to the first tutorial !
+İlk eğitselimize hoş geldiniz !
 
-Before jumping into OpenGL, you will first learn how to build the code that goes with each tutorial, how to run it, and most importantly, how to play with the code yourself.
+OpenGL'e geçmeden önce, ilk olarak her bir eğitseldeki kodları nasıl inşa (ing. build) edeceğinizi, onları nasıl koşacağınızı ve en önemlisi kendi başınıza onlarla nasıl oynayacağınızı öğreneceksiniz.
 
-# Prerequisites
+# Önkoşullar
 
-No special prerequisite is needed to follow these tutorials. Experience with any programming langage ( C, Java, Lisp, Javascript, whatever ) is better to fully understand the code, but not needed; it will merely be more complicated to learn two things at the same time.
+Bu eğitselleri takip etmek için herhangi bir önkoşul gerekmemektedir. Herhangi bir programlama dilindeki ( C, Java, Lisp, Javascript, vs. ) tecrübe kodları anlamada daha iyi olacaktır, ancak gerekli değildir; sadece, bu durumda aynı anda iki şey öğrenileceği için daha karmaşık olacaktır.
 
-All tutorials are written in "Easy C++" : Lots of effort has been made to make the code as simple as possible. No templates, no classes, no pointers. This way, you will be able to understand everything even if you only know Java.
+Bütün eğitseller "Basit C++" ile yazılmıştır: Mümkün olduğunca daha basit olması için çaba sarf edilmiştir. C++'daki şablon(ing. template), sınıflar (ing. classes), işaretçi (ing. pointer) burada yoktur. Bu sayede, sadece Java bile bilseniz her şeyi anlamak mümkün olmaktadır.
 
-# Forget Everything
+# Her şeyi unutun
 
-You don't have to know anything, but you have to forget everything you know about OpenGL.
-If you know about something that looks like glBegin(), forget it. Here you will learn modern OpenGL (OpenGL 3 and 4) , and many online tutorials teach "old" OpenGL (OpenGL 1 and 2). So forget everything you might know before your brain melts from the mix.
+Bir şeyler bilmek zorunda değilsiniz, ancak OpenGL hakkında tüm bildiklerinizi unutmanız gerekmektedir. 
+Eğer glBegin() gibi bir fonksiyon hakkında bilgi sahibiyseniz, bunu unutun. Burada Modern OpenGL öğreneceksiniz (OpenGL 3 ve 4), bir çok çevrimiçi eğitseller halen "eski" OpenGL'i (OpenGL 1 ve 2) öğretmektedir. Kafanızı karıştırmamak için bu gibi bilgileri unutmanızda fayda vardır.
 
-# Building the tutorials
+# Eğitsellerin inşası
 
-All tutorials can be built on Windows, Linux and Mac. For all these platforms, the procedure is roughly the same :
+Tüm eğitseller Windows, Linux ve Mac işletim sistemleri üzerinde inşa edilebilir. Tüm bu platformlar için usül hemen hemen aynıdır:
 
-* **Update your drivers** !! doooo it. You've been warned.
-* Download a compiler, if you don't already have one.
-* Install CMake
-* Download the source code of the tutorials
-* Generate a project using CMake
-* Build the project using your compiler
-* Play with the samples !
+* **Sürücülerinizi güncelleyin** !! Bunu yapın.
+* Eğer derleyiciniz yoksa bir tane indirin.
+* CMake'i yükleyin
+* Bu eğitsellerin kaynak kodlarını indirin
+* CMake kullanarak bir proje üretin
+* Derleyicinizi kullanarak bu projeyi inşa edin
+* Örneklerle oynayın !
 
 Detailed procedures will now be given for each platform. Adaptations may be required. If unsure, read the instruction for Windows and try to adapt them.
 
