@@ -2,7 +2,7 @@
 layout: tutorial
 status: publish
 published: true
-title: 'Tutorial 2 : The first triangle'
+title: 'Eğitsel 2 : İlk Üçgen'
 date: '2011-04-07 18:54:11 +0200'
 date_gmt: '2011-04-07 18:54:11 +0200'
 categories: [tuto]
@@ -13,15 +13,15 @@ tags: []
 * TOC
 {:toc}
 
-This will be another long tutorial.
+Bu başka uzun bir eğitsel olacak.
 
-OpenGL 3 makes it easy to write complicated stuff, but at the expense that drawing a simple triangle is actually quite difficult.
+OpenGL 3 karmaşık işleri yazmayı kolaylaştırıyor, ancak emeğe kıyasla basit bir üçgen çizdirmek aslında oldukça zor. 
 
 Don't forget to cut'n paste the code on a regular basis.
 
 **<span style="color: red">If the program crashes at startup, you're probably running from the wrong directory. Read CAREFULLY the [first tutorial]({{ site.baseurl }}/beginners-tutorials/tutorial-1-opening-a-window/) and the [FAQ]({{ site.baseurl }}/miscellaneous/faq/) on how to configure Visual Studio !</span>**
 
-# The VAO
+# VAO (Vertex Array Object,Köşe Dizi Nesnesi)
 
 I won't dig into details now, but you need to create a Vertex Array Object and set it as the current one :
 
